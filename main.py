@@ -46,7 +46,7 @@ car_1.year = "gjhg"
 # print(car_1.type)
 # car_2.type = "common"
 # print(car_2.type)
-
+print("asd")
 
 
 
