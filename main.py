@@ -24,28 +24,28 @@ print(car_1.__dict__)
 car_1.change_year('2019')
 car_1.year = "gjhg"
 
-# print(car_1, car_2)
-# print(car_1.car_name, car_1.color, car_1.year)
-# print(car_2.car_name, car_2.color, car_2.year)
-# print(car_1.__dict__)
-# print(car_2.__dict__)
-# print(car_1.NAME)
-# print(car_1.NAME)
-# print(Car.NAME)
-# car_2.year = 2011
-# # print(car_2.__dict__)
-# car_1.pressent()
-# car_2.pressent()
-# Car.pressent(car_2)
-# Car.pressent(car_1)
-# car_3 = Car("audi", "black", 2013)
-# car_3.model = "a6"
-# car_3.pressent()
-# print(car_1.__dict__,car_3.__dict__,sep="\n")
-# Car.type = "sport"
-# print(car_1.type)
-# car_2.type = "common"
-# print(car_2.type)
+print(car_1, car_2)
+print(car_1.car_name, car_1.color, car_1.year)
+print(car_2.car_name, car_2.color, car_2.year)
+print(car_1.__dict__)
+print(car_2.__dict__)
+print(car_1.NAME)
+print(car_1.NAME)
+print(Car.NAME)
+car_2.year = 2011
+print(car_2.__dict__)
+car_1.pressent()
+car_2.pressent()
+Car.pressent(car_2)
+Car.pressent(car_1)
+car_3 = Car("audi", "black", 2013)
+car_3.model = "a6"
+car_3.pressent()
+print(car_1.__dict__,car_3.__dict__,sep="\n")
+Car.type = "sport"
+print(car_1.type)
+car_2.type = "common"
+print(car_2.type)
 print("asd")
 
 
